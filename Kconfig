@@ -45,6 +45,7 @@ menu "Applications"
     source "apps/keyboard/Kconfig"
 
     menu "Examples"
+        source "apps/ipcbench/Kconfig"
         source "apps/simple/Kconfig"
         source "apps/dataport/Kconfig"
         source "apps/event/Kconfig"
